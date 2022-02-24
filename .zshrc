@@ -3,9 +3,6 @@ stty -ixon
 # EDITOR
 export EDITOR="subl -wn"
 
-# PATH
-
-
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -43,7 +40,6 @@ alias fs='foreman start'
 alias ga='git add'
 alias ga.='git add .'
 alias gaa='git add -A'
-# alias gcm='git commit -m'
 alias gcmi='git commit -m "Initial commit"'
 alias gi='git init'
 alias gl='git log'
